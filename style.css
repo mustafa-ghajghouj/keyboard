@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(233, 231, 231);
+    text-align: center;
+    margin-top: 90px;
+    padding-top: 20px;
+    font-weight: 600;
+}
+span{
+    display: inline-block;
+    width:60px;
+    height:40px;
+    background: #ecf0f3;
+    padding-top: 20px;
+    margin: 5px;
+    color: #979696;
+    cursor:pointer;
+    border-radius: 10px;
+    box-shadow: -3px -3px 5px #fff, 3px 3px 5px #cbcec1;
+}
+.backspace{
+    width: 100px;
+}
+.tab{
+    width: 100px;
+}
+.caps{
+    width: 117px;
+}
+.enter{
+    width: 117px;
+}
+.lshift{
+    width: 174px;
+}
+.rshift{
+    width: 60px;
+}
+.space{
+    width: 322px;
+}
+
+span:hover{
+    color: #ff5589;
+    transform: scale(1.05);
+}
